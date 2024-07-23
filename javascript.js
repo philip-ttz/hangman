@@ -62,4 +62,4 @@ for (let i = 97; i < 122; i++) {
 }
 
 getRandomWord();
-playAgain.addEventListener("click", getRandomWord());
+playAgain.addEventListener("click", getRandomWord);
