@@ -4,7 +4,20 @@ const wordDisplay = document.querySelector(".word-display");
 const gameModal = document.querySelector(".game-modal");
 const playAgain = document.querySelector(".play-again");
 
-const wordList = ["analphabet","beruhigungsmittel", "schullandheim", "informatik","wirtschaft"];
+const wordList = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape", "honeydew", "kiwi", 
+                    "lemon", "mango", "nectarine", "orange", "papaya", "quince", "raspberry", "strawberry", 
+                    "tangerine", "ugli", "vanilla", "watermelon", "xigua", "yam", "zucchini", "apricot", 
+                    "blackberry", "cantaloupe", "dragonfruit", "eggplant", "fennel", "grapefruit", 
+                    "hazelnut", "iceberg", "jackfruit", "kale", "lime", "mandarin", "nutmeg", "olive", 
+                    "peach", "quinoa", "radish", "spinach", "tomato", "umeboshi", "viburnum", "walnut", 
+                    "ximenia", "yucca", "adzuki", "broccoli", "carrot", "dill", "endive", "fennel", "garlic", 
+                    "horseradish", "jalapeno", "kohlrabi", "lettuce", "mushroom", "nopales", "okra", "parsley", 
+                    "quiche", "rutabaga", "shallot", "turnip", "umbrella", "violin", "wasabi", "xanthan", 
+                    "yeast", "avocado", "blueberry", "chickpea", "daikon", "elderflower", "fiddlehead", 
+                    "ginger", "hibiscus", "jicama", "kumquat", "lentil", "macadamia", "nectar", "oatmeal", 
+                    "persimmon", "quassia", "romaine", "sorrel", "thyme", "upland", "vervain", "watercress", 
+                    "xylophone", "yarrow", "zest", "ant", "book", "car", "dog", "elephant", "flower", "grass", 
+                    "house", "island", "jacket", "kite"];
 
 let currentWord, correctLetters = [], wrongGuessCount = 0;
 const maxGuesses = 6;
